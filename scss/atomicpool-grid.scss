@@ -28,6 +28,20 @@ $grid-spacing:3%;
     }
 }
 
+//----- Offsets
+.ap-c-offset-1  { margin-left: (100% / 12); }
+.ap-c-offset-2  { margin-left: (100% / 6); }
+.ap-c-offset-3  { margin-left: (100% / 4); }
+.ap-c-offset-4  { margin-left: (100% / 3); }
+.ap-c-offset-5  { margin-left: (100% / 2.4); }
+.ap-c-offset-6  { margin-left: (100% / 2); }
+.ap-c-offset-7  { margin-left: (100% / 1.714285714285714); }
+.ap-c-offset-8  { margin-left: (100% / 1.5); }
+.ap-c-offset-9  { margin-left: (100% / 1.333333333333333); }
+.ap-c-offset-10 { margin-left: (100% / 1.2); }
+.ap-c-offset-11 { margin-left: (100% / 1.090909090909091); }
+.ap-c-offset-12 { margin-left: 100%; }
+
 //----- Columns
 .ap-c-1   { width:(100% / 12) - ($grid-spacing * 11 / 12); }
 .ap-c-2   { width:(100% / 6) - ($grid-spacing * 10 / 12); }
